@@ -9,4 +9,7 @@ I have evaluated each query-response pair using my understanding and matching th
 I first used RAG - Chain without preserving chat history i.e. Stateless , which is by default. So , to improve accuracy , I have used memory buffer to preserve chat history too for better results.
 
 **Thought Process:**
-I have used mistral model and developed chatbot on my local system by downloading mistral LLM and then used concept of RAG(Retreival Augmented Generation) to augment given pdf on it. Then , I used memory chain of LangChain and built a Question - Answering machine using based on given pdf. I have tried to minimize hallucination by setting temperature to 0. And matching similarity using 0.7 as a similarity socre. 
+I have used mistral model and developed chatbot on my local system by downloading mistral LLM and then used concept of RAG(Retreival Augmented Generation) to augment given pdf on it. Then , I used memory chain of LangChain and built a Question - Answering machine using based on given pdf. I have tried to minimize hallucination by setting temperature to 0. And matching similarity using 0.7 as a similarity score. 
+Note : I was not able to run all the queries in dataset due to time consuming process due to lack of computation power , I have test my chatbot on 5 queries and it has given accurate answers from the document without hallucinating.
+Thank you!!
+
