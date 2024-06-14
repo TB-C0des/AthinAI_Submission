@@ -1,7 +1,7 @@
 # AthinAI_Submission
 Introducing our PDF-Based Chatbot: revolutionizing document navigation. With advanced NLU and PDF parsing, easily access content via natural conversation. Customizable and accessible across platforms. Say hello to streamlined document exploration!
 
-**Dataset : **
+**Dataset :**
 I have created dataset using the document given by Athina, I have analysed whole document and have taken 30 questions from different sections to maintain diversity among the questions and I have also used ChatGPT to generate few questions for different sections of the 
 
 **Evaluation Metrics:**
